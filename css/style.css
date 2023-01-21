@@ -1,0 +1,168 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteiner {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.heroes-main-img {
+    display: flex;
+    background: linear-gradient(rgb(250, 63, 125),rgb(252, 134, 173),  rgb(253, 46, 115));
+    justify-content: center;
+}
+
+.main-img {
+    width: 1903px;
+}
+
+.mini-hello-kitty {
+    position: relative;
+    top: 30px;
+    width: 300px;
+    z-index: 1;
+}
+
+.greeting {
+    display: flex;
+    min-width: 800px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting-content {
+    display: grid;
+    grid-template-columns: 1fr 920px 1fr;
+}
+
+.intro {
+    display: grid;
+    margin-top: 10px;
+    grid-template-rows: 70px 130px 120px;
+    align-items: center;
+    justify-items: center;
+}
+
+.greeting-h1 {
+    align-self: end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.greeting-p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.hk-chair-img {
+    position: relative;
+    width: 400px;
+}
+
+.hk-chair-h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(253, 119, 142);
+    margin-bottom: 10px;
+}
+
+.hk-chair-p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.25rem;
+    line-height: 1.5em
+}
+
+.chair-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+.chair-space {
+    display: grid;
+    min-width: none;
+    height: 800px;
+    grid-template-columns: 1fr 1000px 1fr;
+    align-items: center;
+}
+
+.main-chair-space {
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+@font-face {
+    font-family: "HelloKitty";  
+    src: url("../font/hellokitty.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+.hr {
+    border: 0;
+    border-bottom: 0.1px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 1483.5px;
+    height: 4px;
+    width: 100%;
+    background-color: black;
+}
+
+.white-hr {
+    background-color: white;
+    border: 0;
+    height: 40px;
+}
+
+.black-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    border: 0;
+    height: 300px; 
+    z-index: 2;
+    position: absolute;
+    top: 2100px;
+}
+
+.black-div-p {
+    color: white;
+    font-family: "HelloKitty";
+    font-size: 70px;
+    text-align: center;
+}
+
+.small {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(250, 63, 125),rgb(252, 134, 173),  rgb(253, 46, 115));
+}
+
+.footer-p {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
