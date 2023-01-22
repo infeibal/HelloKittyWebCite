@@ -9,8 +9,9 @@ body {
 
 .conteiner {
     display: block;
-    width: 100%;
     height: 100%;
+    width: 1903px;
+    margin: 0 auto;
 }
 
 .heroes-main-img {
@@ -136,6 +137,8 @@ body {
     z-index: 2;
     position: absolute;
     top: 2100px;
+    margin: 0 auto;
+    max-width: 1903px;
 }
 
 .black-div-p {
