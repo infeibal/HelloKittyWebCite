@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    background: rgb(201, 87, 125)
 }
 
 * {
@@ -18,6 +19,7 @@ body {
     display: flex;
     background: linear-gradient(rgb(250, 63, 125),rgb(252, 134, 173),  rgb(253, 46, 115));
     justify-content: center;
+    margin: 0 auto;
 }
 
 .main-img {
@@ -33,10 +35,10 @@ body {
 
 .greeting {
     display: flex;
-    min-width: 800px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .greeting-content {
@@ -94,6 +96,7 @@ body {
     height: 800px;
     grid-template-columns: 1fr 1000px 1fr;
     align-items: center;
+    background-color: white;
 }
 
 .main-chair-space {
@@ -116,7 +119,7 @@ body {
     position: absolute;
     top: 1483.5px;
     height: 4px;
-    width: 100%;
+    width: 1903px;
     background-color: black;
 }
 
@@ -157,7 +160,6 @@ footer {
     display: flex;
     position: relative;
     top: 90px;
-    width: 100%;
     height: 100px;
     justify-content: center;
     align-items: center;
