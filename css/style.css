@@ -130,7 +130,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     background-color: black;
     border: 0;
     height: 300px; 
